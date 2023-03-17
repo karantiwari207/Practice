@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        #head1{font-family: sans-serif;
+                text-transform: capitalize;
+                letter-spacing: 3px;
+            }
+            #navbar{
+                display: flex;
+                height: 40px;
+                text-align: left;
+                background-color: blueviolet;
+                list-style-type: none;
+                padding: none;
+                border: none;
+            }
+            #list{
+                display: flex;
+                text-align: center;
+                margin-top: -5px;
+            }
+            .txt{
+                text-align: center;
+                color: white;
+                text-decoration: none;
+                letter-spacing: 1px;
+            }
+            .txt:hover{
+                background-color: red;
+                padding: 5px 5px 5px 5px;
+
+            }
+
+    </style>
+</head>
+<body>
+    <!-- Use HTML to create a navigation bar with appropriate tags such as <ul> and <li>.
+
+        Use CSS to style the navigation bar with appropriate properties such as background-color, font-size, and padding. -->
+<h1 id="head1">navbar</h1>
+        <div id="navbar">
+            <li id="list">
+                <ul><a href="#" class="txt">Myfav</a></ul>
+                <ul><a href="#" class="txt">Martian</a></ul>
+                <ul><a href="#" class="txt">Movie</a></ul>
+            </li>
+        </div>
+    </body>
+</html>
